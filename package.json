@@ -1,0 +1,29 @@
+{
+  "name": "signup_backend_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjankumar9/SignUP_Backend_Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjankumar9/SignUP_Backend_Api/issues"
+  },
+  "homepage": "https://github.com/ranjankumar9/SignUP_Backend_Api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
